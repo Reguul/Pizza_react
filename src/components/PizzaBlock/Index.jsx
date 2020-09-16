@@ -40,7 +40,7 @@ function PizzaBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza,a
     return (
         <div className="pizza-block">
             <img className="pizza-block__image" src= {imageUrl} alt="Pizza" />
-            <h4 className="pizza-block__title">{name}</h4>;
+            <h4 className="pizza-block__title">{name}</h4>
             <div className="pizza-block__selector">
             <ul>
                 {availableTypes.map((type, index) =>(
